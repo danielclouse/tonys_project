@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 855px;
+    margin-left: 30px;
+    font-family: "Droid Sans";
+}
+
+header {
+    overflow: auto;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+
+#header-h1 {
+    float: left;
+    width: 265px;
+}
+
+#header-p {
+    max-width: 550px;
+    min-width: 490px;
+    float: right;
+    margin-left: 30px;
+}
+
+main {
+    clear: both;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1 px solid gray;
+}
+
+.comment-input {
+    max-width: 265px;
+    margin-right: 10px;
+    float: left;
+}
+
+.comments {
+    max-width: 550px;
+    min-width: 490px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.comments p:nth-child(even) {
+    background: lavender;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.comments p:nth-child(odd) {
+    background: gainsboro;
+    margin: 12px;
+    border-radius: 4px;   
+}
+
+button {
+    color: white;
+    background-color: gray;
+}
+
+footer {
+    margin-top: 20px;
+    clear: both;
+    border-top: 1px solid gray;
+    font-size: .8em;
+}
