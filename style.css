@@ -16,6 +16,7 @@ main .container,
 footer .container {
     max-width: 855px;
     margin: auto;
+    /*cannot figure out how to unbox the center section color like he did in the book example*/
 }
 
 header {
