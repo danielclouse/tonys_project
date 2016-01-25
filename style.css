@@ -8,6 +8,7 @@ header,
 main,
 footer {
     min-width: 855px;
+    font-family: "Open Sans";
 }
 
 header .container,
@@ -19,9 +20,77 @@ footer .container {
 
 header {
     background: white;
+    min-height: 100px;
+}
+
+h1 {
+    float: left;
+    width: 570px;
+    font-size: 5em;
+    font-style: italic;
+    color: orange;
+}
+
+header nav {
+    float: right;
+    width: 285px;
 }
 
 main {
+    max-width: 855px;
+    float: left;
     background: white;
     display: block;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#main-list {
+    text-indent: 30px;
+}
+
+#content {
+    max-width: 570px;
+    float: left;
+    margin: auto;
+}
+
+img {
+    float: right;
+    width: 285px;
+}
+
+.contact {
+    max-width: 570px;
+    float: left;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sitemap {
+    float: right;
+    max-width: 285px;
+    overflow: auto;
+    margin-right: 125px;
+    margin-top: 30px;
+}
+
+#column1 {
+    max-width: 125px;
+    float: left;
+    padding: 6px;
+}
+
+#column2 {
+    max-width: 125px;
+    float: right;
+    padding: 6px;
 }
