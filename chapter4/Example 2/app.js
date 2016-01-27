@@ -24,6 +24,22 @@ var main = function() {
         }
 
     });
+
+    $("footer p").fadeOut(1000, function() {
+        $("footer p").remove();
+
+    });
+
+    var $content = $("<div> Hello World!</div>").hide();
+    var $moreContent = $("<div> Goodbye World!</div>").hide();
+
+    $("body").append($content);
+    $content.slideDown(3000, function() {
+        $("body").append($moreContent);
+        $moreContent.fadeIn(4000);
+    });
 };
+
+
 
 $(document).ready(main);
