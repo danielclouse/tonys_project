@@ -1,0 +1,124 @@
+body {
+    width: 855px;
+    margin: auto;
+}
+
+header,
+main,
+footer {
+    min-width: 855px;
+    font-family: "Open Sans";
+}
+
+header .container,
+main .container,
+footer .container {
+    max-width: 855px;
+    margin: auto;
+    background: #f9e933;
+    /*cannot figure out how to unbox the center section color like he did in the book example*/
+}
+
+header {
+    background: white;
+    min-height: 100px;
+}
+
+h1 {
+    float: left;
+    width: 570px;
+    font-size: 5em;
+    font-style: italic;
+    color: orange;
+}
+
+header nav {
+    float: right;
+    width: 285px;
+}
+
+main {
+    max-width: 855px;
+    float: left;
+    background: white;
+    display: block;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#main-list {
+    text-indent: 30px;
+}
+
+#content {
+    max-width: 570px;
+    float: left;
+    margin: auto;
+}
+
+img {
+    float: right;
+    width: 285px;
+}
+
+img:hover {
+    background-color: blue;
+}
+
+.contact {
+    max-width: 570px;
+    float: left;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sitemap {
+    float: right;
+    max-width: 285px;
+    overflow: auto;
+    margin-right: 125px;
+    margin-top: 30px;
+}
+
+#contact-amazeriffic {
+    font-style: italic;
+    color: orange;
+}
+
+#column1 {
+    max-width: 125px;
+    float: left;
+    padding: 6px;
+}
+
+#column2 {
+    max-width: 125px;
+    float: right;
+    padding: 6px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+.tabs a span.active {
+    background: #eee;
+}
