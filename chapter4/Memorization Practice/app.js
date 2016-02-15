@@ -11,7 +11,9 @@ var main = function() {
     $firstItem.text("I'm taking over as first (Tony used prepend in jQuery!!!");
     $("ol").prepend($firstItem);
 
-    $(".bye-bye").remove(); 
+    $(".bye-bye").fadeOut(10000, function() {
+        $(".bye-bye").remove();
+    });
 
 };
 
