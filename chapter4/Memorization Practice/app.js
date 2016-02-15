@@ -1,7 +1,18 @@
 var main = function() {
-	"use strict";
-	window.alert("hello world");
-	console.log("two things at once!");
+    "use strict";
+    window.alert("hello world");
+
+    var $newOL = $("<li>");
+    $newOL.text("This is a new item that Tony added using jQuery!");
+    $("ol").append($newOL);
+
+
+    var $firstItem = $("<li>");
+    $firstItem.text("I'm taking over as first (Tony used prepend in jQuery!!!");
+    $("ol").prepend($firstItem);
+
+    $(".bye-bye").remove(); 
+
 };
 
 $(document).ready(main);
